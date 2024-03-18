@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class InverteString {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Leitura da string
+        System.out.print("Digite uma string: ");
+        String str = scanner.nextLine();
+
+        // Cálculo da string invertida
+        String strInvertida = "";
+        for (int i = str.length() - 1; i >= 0; i--) {
+            strInvertida += str.charAt(i);
+        }
+
+        // Exibição da string invertida
+        System.out.println("String invertida: " + strInvertida);
+    }
+}
+

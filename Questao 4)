@@ -1,0 +1,23 @@
+ Preparando o cenário:
+
+    Ligue o interruptor 1 e deixe-o ligado por 5 minutos.
+    Desligue o interruptor 1 e ligue o interruptor 2.
+
+Investigando a primeira sala:
+
+    Vá até a sala das lâmpadas.
+    Toque em cada lâmpada.
+        Lâmpada quente: conectada ao interruptor 1.
+        Lâmpada fria: conectada ao interruptor 3.
+
+Desvendando a última lâmpada:
+
+    Como o interruptor 2 foi ligado recentemente, a lâmpada conectada a ele estará quente ou fria?
+        Se quente: interruptor 2 controla a última lâmpada.
+        Se fria: interruptor 3 controla a última lâmpada.
+
+Resumindo:
+
+    Interruptor 1: lâmpada que está quente.
+    Interruptor 2: a) lâmpada quente (se estiver quente na segunda visita) ou b) última lâmpada (se estiver fria na segunda visita).
+    Interruptor 3: a) última lâmpada (se a lâmpada do interruptor 2 estiver quente na segunda visita) ou b) lâmpada que está fri
